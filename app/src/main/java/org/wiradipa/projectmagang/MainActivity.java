@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 case R.id.navigation_recent:
                     mTextMessage.setText(R.string.title_dashboard);
+
                     changeFragment(new RecentsFragment());
                     return true;
                 case R.id.navigation_notifications:
