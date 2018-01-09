@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:text="Sepatu Adidas"
             android:textColor="@color/font1"
-            android:textSize="22sp"
+            android:textSize="18sp"
             android:textStyle="bold" />
         <TextView
             android:id="@+id/kodeBarang"
@@ -25,7 +25,7 @@
             android:text="6CM74201VJ-ADDS"
             android:paddingTop="6dp"
             android:textColor="@color/font1"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textStyle="italic"/>
     </LinearLayout>
     <LinearLayout
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:text="02 Jan 2017"
             android:textColor="@color/font1"
-            android:textSize="16sp"
+            android:textSize="12sp"
             android:textStyle="italic"/>
         <TextView
             android:id="@+id/jam"
@@ -47,7 +47,7 @@
             android:paddingLeft="4dp"
             android:text=", 10.25"
             android:textColor="@color/font1"
-            android:textSize="16sp"
+            android:textSize="12sp"
             android:textStyle="italic"/>
     </LinearLayout>
 

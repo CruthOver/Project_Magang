@@ -5,23 +5,25 @@
     android:layout_gravity="center_horizontal"
     android:layout_width="match_parent"
     android:gravity="center"
+    android:background="@color/backgroundList"
     android:layout_height="wrap_content">
     <LinearLayout
-        android:layout_width="320dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:orientation="vertical">
         <TextView
             android:id="@+id/kode_barang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="kode"
-            android:textSize="16sp"
+            android:text="23NJFN3F34NF3"
+            android:textSize="20sp"
             android:textStyle="bold"/>
         <TextView
             android:id="@+id/detail_barang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="detail_barang"
+            android:text="Adidas"
             android:textSize="14sp"/>
     </LinearLayout>
     <CheckBox
