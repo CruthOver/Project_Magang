@@ -1,13 +1,16 @@
 package org.wiradipa.projectmagang;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -38,10 +41,18 @@ public class RecentsFragment extends Fragment {
         recentses.add(new Recents("Sepatu League", "SPTLG090118", "09/01/2018", "10.23"));
 
         ListView recentsList = (ListView) view.findViewById(R.id.list_recent);
-
         RecentsAdapter adapter = new RecentsAdapter(getActivity(), recentses);
-        recentsList.setAdapter(adapter);
 
+        recentsList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+                TextView item = (TextView) view.findViewById(R.id.textView);
+
+                String coba = item.getText().toString();
+                Toast.makeText(getActivity(), coba, Toast.LENGTH_SHORT).show();
+            }
+        });
+        recentsList.setAdapter(adapter);
 
         return view;
     }
