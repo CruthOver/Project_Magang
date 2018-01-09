@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ProjectMagang.iml" filepath="$PROJECT_DIR$/ProjectMagang.iml" />
+      <module fileurl="file://C:\Users\AndhikaEffendy\Documents\GitHub\Project_Magang\ProjectMagang.iml" filepath="C:\Users\AndhikaEffendy\Documents\GitHub\Project_Magang\ProjectMagang.iml" />
       <module fileurl="file://$PROJECT_DIR$/Project_Magang.iml" filepath="$PROJECT_DIR$/Project_Magang.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
