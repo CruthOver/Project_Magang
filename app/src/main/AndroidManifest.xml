@@ -38,7 +38,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ScanBarcodeActivity"></activity>
-        <activity android:name=".DeliveryOrder"></activity>
+        <activity android:name=".DeliveryOrderActivity"></activity>
     </application>
 
 </manifest>
