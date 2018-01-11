@@ -3,7 +3,7 @@ package org.wiradipa.projectmagang;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class DeliveryOrder extends AppCompatActivity {
+public class DeliveryOrderActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

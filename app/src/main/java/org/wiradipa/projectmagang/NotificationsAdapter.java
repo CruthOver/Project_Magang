@@ -39,6 +39,7 @@ public class NotificationsAdapter extends ArrayAdapter<Notification> {
         kodeBarang.setText(current.getMmerekBarang());
         tanggal.setText(current.getMjam());
         totalBarang.setText(current.getmTotalBarang());
+        tersedia.setImageResource(current.getmAvailable());
         return convertView;
     }
 
